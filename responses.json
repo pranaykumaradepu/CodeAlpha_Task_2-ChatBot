@@ -1,0 +1,104 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey","hii","hai"],
+    "bot_response": "Hey there! How can i help you ",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye","exit"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "greeting", 
+    "user_input": ["what's up", "how's it going"],
+    "bot_response": "I'm doing well, thanks for asking!",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "name"],  
+    "bot_response": "My name is ChatBot!",
+    "required_words": ["what", "your", "name"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "can", "you", "do"],
+    "bot_response": "I can have simple conversations and answer basic questions.",
+    "required_words": ["what", "you", "do"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "created", "you"],
+    "bot_response": "I was created by a developer Pranay Kumar Adepu",
+    "required_words": ["who", "created", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "favorite", "color"],
+    "bot_response": "As a chatbot, I don't actually have preferences like favorite colors.",
+    "required_words": ["what", "your", "favorite", "color"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "favorite", "food"],
+    "bot_response": "I'm an AI assistant without the ability to eat, so I don't have a favorite food.",
+    "required_words": ["what", "your", "favorite", "food"]
+  }, 
+  {
+    "response_type": "question",
+    "user_input": ["where", "do", "you", "live"],
+    "bot_response": "I'm an AI program created by Pranay Kumar Adepu, so I don't have a physical location or home.",
+    "required_words": ["where", "do", "you", "live"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "the", "weather"],
+    "bot_response": "I'm an AI assistant without access to weather data, so I don't know the current weather.",
+    "required_words": ["what", "weather"] 
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "gender"],
+    "bot_response": "I'm an AI assistant without a gender identity.",
+    "required_words": ["what", "your", "gender"]
+  },
+  {
+    "response_type": "question", 
+    "user_input": ["what", "is", "the", "meaning", "of", "life"],
+    "bot_response": "I'm an AI, so I don't have insights into the meaning of life.",
+    "required_words": ["what", "meaning", "life"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["can", "you", "tell", "me", "a", "joke"],
+    "bot_response": "I don't actually know any jokes, but I would love to learn some!",
+    "required_words": ["you", "joke"]
+  }
+]
